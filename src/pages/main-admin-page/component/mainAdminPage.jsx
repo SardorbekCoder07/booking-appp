@@ -1,14 +1,19 @@
 import React from "react";
-import { Vector5, analytic, logo, menuIcon1, menuIcon2 } from "../../assets/loginsignUp/const";
+import { Vector5, analytic, logo, menuIcon1, menuIcon2 } from "../../../assets/loginsignUp/const";
+import MainAdminNav from "./mainAdminNav";
+import MainAdminManager from "./mainAdminManage";
 
 const MainAdminpage = () => {
     return (
-        <div className="p-5">
+        <div className="p-5 flex ">
             {/* top white piece */}
-            <div className="bg-white w-[25%] h-[670px] px-4 py-3 rounded-xl">
+            <div className="bg-white w-[30%] h-[670px] px-4 py-3 rounded-xl">
                 {/* logo */}
                 <div className="flex items-center justify-center mt-8 mb-10">
-                    {/* <img alt="" /> */}
+                    <p className="text-black">
+                        <span className="text-4xl font-semibold"> HF</span>
+                        <span className="text-2xl font-semibold">finder</span>
+                    </p>
                 </div>
                 {/* user data */}
                 <div className="flex items-center gap-2">
@@ -16,7 +21,7 @@ const MainAdminpage = () => {
                     <div>
                         <img src={logo} alt="image" />
                     </div>
-                    {/* user name */}   
+                    {/* user name */}
                     <div>
                         <p className="font-bold text-2xl ">Byiringiro Moise</p>
                         <div className="flex items-center gap-1">
@@ -48,6 +53,10 @@ const MainAdminpage = () => {
                         </div>
                     </div>
                 </div>
+            </div>
+            <div className="w-full ml-5 mt-10">
+                <MainAdminNav />
+                <MainAdminManager/>
             </div>
         </div>
     );

@@ -5,6 +5,7 @@ import menuIcon1 from '../MainAdminDashboard/clarity_list-line.svg'
 import menuIcon2 from '../MainAdminDashboard/clarity_list-line (1).svg'
 import analytic from '../MainAdminDashboard/logos_google-analytics.svg'
 import Vector5 from '../MainAdminDashboard/Vector (5).svg'
+import HomeSVG from '../MainAdminDashboard/Vector (6).svg'
 export{
     vector,
     union,
@@ -12,5 +13,6 @@ export{
     menuIcon1,
     menuIcon2,
     analytic,
-    Vector5
+    Vector5,
+    HomeSVG
 }
