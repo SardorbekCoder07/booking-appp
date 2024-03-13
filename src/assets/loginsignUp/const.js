@@ -1,4 +1,4 @@
-import vector from './Vectors.png'
+import vector from './Vectors.svg'
 export{
     vector
 }
