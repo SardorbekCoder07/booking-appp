@@ -5,7 +5,7 @@ import MainAdminManager from "./mainAdminManage";
 
 const MainAdminpage = () => {
     return (
-        <div className="p-5 flex ">
+        <div className="p-5 flex  ">
             {/* top white piece */}
             <div className="bg-white w-[30%] h-[670px] px-4 py-3 rounded-xl">
                 {/* logo */}
