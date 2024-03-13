@@ -32,7 +32,7 @@ const Login = () => {
             </a>
           </p>
         </div>
-        <img src={vector} className='w-full' alt="" />
+        <img src={vector} className='w-full' alt="Image" />
       </div>
     </>
 
