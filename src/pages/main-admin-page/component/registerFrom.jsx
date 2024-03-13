@@ -34,16 +34,18 @@ function RegistrationForm() {
             id="fullName"
             name="fullName"
             placeholder="Enter your name"
+            required
             className="text-center mt-1 w-[20rem] py-1 px-2 border-2 border-[#F46A06] rounded-md shadow-sm outline-none"
           />
         </div>
         <div className=' w-full flex  justify-between items-center'>
           <label htmlFor="fullName" className="  text-sm font-medium text-gray-700 mb-1">Phone Number</label>
           <input
-            type="text"
+            type="number"
             id="phoneNumber"
             name="phoneNumber"
             placeholder="+250999999999"
+            required
             className="text-center mt-1 w-[20rem] py-1 px-2 border-2 border-[#F46A06] rounded-md shadow-sm outline-none"
           />
         </div>
@@ -53,6 +55,7 @@ function RegistrationForm() {
             type="text"
             id="facility"
             name="facility"
+            required
             placeholder="Facility type"
             className="text-center mt-1 w-[20rem] py-1 px-2 border-2 border-[#F46A06] rounded-md shadow-sm outline-none"
           />
@@ -64,6 +67,7 @@ function RegistrationForm() {
             id="facilityName"
             name="facility name"
             placeholder="Facility name"
+            required
             className="text-center mt-1 w-[20rem] py-1 px-2 border-2 border-[#F46A06] rounded-md shadow-sm outline-none"
           />
         </div>
@@ -74,6 +78,7 @@ function RegistrationForm() {
             id="email"
             name="email"
             placeholder="mail@gmail.com"
+            required
             className="text-center mt-1 w-[20rem] py-1 px-2 border-2 border-[#F46A06] rounded-md shadow-sm outline-none"
           />
         </div>
@@ -84,9 +89,14 @@ function RegistrationForm() {
             id="password"
             name="password"
             placeholder="Enter Passwrod"
+            required
             className="text-center mt-1 w-[20rem] py-1 px-2 border-2 border-[#F46A06] rounded-md shadow-sm outline-none"
           />
         </div>
+        <div className='flex justify-center'>
+           <button className='px-10 bg-[#F46A06] borde-[1px] mb-10 text-white font-bold py-2 rounded-lg hover:border-[1px] hover:border-[#F46A06] hover:bg-white hover:text-black duration-200 '>Add Manager</button>
+        </div>
+       
       </form>
     </div>
   );

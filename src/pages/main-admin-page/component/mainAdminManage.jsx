@@ -15,10 +15,10 @@ const MainAdminManager = () => {
 
     ]
     return (
-        <div className='w-full h-auto bg-[#FFF]'>
+        <div className='w-full h-screen bg-[#FFF] rounded-lg'>
             <div className='flex justify-evenly items-center'>
                 {interButton &&
-                    interButton.map((res, i) => 
+                    interButton.map((res, i) =>
                         < button className='px-10 rounded border-2 border-[#F46A06] mt-10 bg-[#F1E8D7]' >
                             {res.name}
                         </button>
@@ -26,7 +26,7 @@ const MainAdminManager = () => {
                 }
             </div>
             <div>
-                <RegistrationForm/>
+                <RegistrationForm />
             </div>
         </div >
     )

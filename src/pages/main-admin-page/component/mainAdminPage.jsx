@@ -5,11 +5,11 @@ import MainAdminManager from "./mainAdminManage";
 
 const MainAdminpage = () => {
     return (
-        <div className="p-5 flex  ">
+        <div className="p-5 flex     ">
             {/* top white piece */}
-            <div className="bg-white w-[30%] h-[670px] px-4 py-3 rounded-xl">
+            <div className="bg-white w-[30%] h-auto px-4 py-3 rounded-xl">
                 {/* logo */}
-                <div className="flex items-center justify-center mt-8 mb-10">
+                <div className="flex items-center justify-center mt-8 mb-40">
                     <p className="text-black">
                         <span className="text-4xl font-semibold"> HF</span>
                         <span className="text-2xl font-semibold">finder</span>
