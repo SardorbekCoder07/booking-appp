@@ -47,7 +47,7 @@ const Login = () => {
         </div>
         <div className='w-[25%] mb-[6.1rem]'>
           <p>Don't have an account?
-            <Link to='/' className='font-font-semibold text-xs ml-5 text-[#F46A06]'>
+            <Link to='/signUp' className='font-font-semibold text-xs ml-5 text-[#F46A06]'>
               Register Now
             </Link>
           </p>
