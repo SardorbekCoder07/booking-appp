@@ -1,5 +1,6 @@
 import React from 'react'
 import RegistrationForm from './registerFrom'
+import RegisterTable from './registerTable'
 
 const MainAdminManager = () => {
     const interButton = [
@@ -15,7 +16,7 @@ const MainAdminManager = () => {
 
     ]
     return (
-        <div className='w-full h-screen bg-[#FFF] rounded-lg'>
+        <div className='w-full h-auto bg-[#FFF] rounded-lg'>
             <div className='flex justify-evenly items-center'>
                 {interButton &&
                     interButton.map((res, i) =>
@@ -25,9 +26,12 @@ const MainAdminManager = () => {
                     )
                 }
             </div>
+            
             <div>
                 <RegistrationForm />
+                <RegisterTable/>
             </div>
+            
         </div >
     )
 }

@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import RegisterTable from './registerTable';
 
 function RegistrationForm() {
   const [formData, setFormData] = useState({
@@ -10,23 +11,23 @@ function RegistrationForm() {
     password: '',
   });
 
-//   const handleChange = (e) => {
-//     const { name, value } = e.target;
-//     setFormData((prevFormData) => ({~
-//       ...prevFormData,
-//       [name]: value,
-//     }));
-//   };
+  //   const handleChange = (e) => {
+  //     const { name, value } = e.target;
+  //     setFormData((prevFormData) => ({~
+  //       ...prevFormData,
+  //       [name]: value,
+  //     }));
+  //   };
 
-//   const handleSubmit = (e) => {
-//     e.preventDefault();
-//     // Handle the form submission
-//     console.log(formData);
-//   };
+  //   const handleSubmit = (e) => {
+  //     e.preventDefault();
+  //     // Handle the form submission
+  //     console.log(formData);
+  //   };
 
   return (
     <div className="max-w-xl mx-auto mt-5">
-      <form  className="space-y-6 ">
+      <form className="space-y-6 ">
         <div className=' w-full flex  justify-between items-center'>
           <label htmlFor="fullName" className="  text-sm font-medium text-gray-700 mb-1">Full Names</label>
           <input
@@ -94,9 +95,8 @@ function RegistrationForm() {
           />
         </div>
         <div className='flex justify-center'>
-           <button className='px-10 bg-[#F46A06] borde-[1px] mb-10 text-white font-bold py-2 rounded-lg hover:border-[1px] hover:border-[#F46A06] hover:bg-white hover:text-black duration-200 '>Add Manager</button>
+          <button className='px-10 bg-[#F46A06] borde-[1px] mb-10 text-white font-bold py-2 rounded-lg hover:border-[1px] hover:border-[#F46A06] hover:bg-white hover:text-black duration-200 '>Add Manager</button>
         </div>
-       
       </form>
     </div>
   );
